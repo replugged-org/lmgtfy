@@ -99,7 +99,7 @@ module.exports = class LMGTFY extends Plugin {
 
     return {
       send: true,
-      result: `<https://googlethatforyou.com?${queryString}>`
+      result: `<https://lmgtfy.wtf/go.html?${queryString}>`
     };
   }
 
